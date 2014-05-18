@@ -8,7 +8,7 @@ exports.config = {
     'browserName': 'firefox'
   },
 
-  chromeOnly: true,
+  chromeOnly: false,
 
   baseUrl: 'http://localhost:3000/',
 

@@ -3,6 +3,8 @@ describe('RailsCR App', function() {
   describe('Phone list view', function() {
 
     beforeEach(function() {
+      var protractorIntance = protractor.getInstance();
+      protractorIntance.ignoreSynchronization = true;
       browser.get('/');
     });
 
