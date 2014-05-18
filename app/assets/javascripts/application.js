@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require angular.1.2.16.min
+//= require angular.min
 
-//= require_tree .
-
+//= require_directory .
+//= require_directory ./angular/controllers
