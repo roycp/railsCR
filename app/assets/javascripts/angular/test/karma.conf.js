@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'vendor/assets/javascripts/angular.1.2.16.min.js',
+      'vendor/assets/javascripts/angular.js',
       'vendor/assets/javascripts/angular-mocks.js',
       'app/assets/javascripts/angular/**/*.js',
       'app/assets/javascripts/angular/test/unit/*.js'
@@ -32,7 +32,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-    
+
     },
 
 
