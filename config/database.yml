@@ -85,5 +85,5 @@ test:
 production:
   <<: *default
   database: RailsCR_production
-  username: RailsCR
+  username: railscr
   password: <%= ENV['RAILSCR_DATABASE_PASSWORD'] %>
